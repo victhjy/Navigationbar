@@ -27,8 +27,8 @@
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
     button1.frame = CGRectMake(0, 100, CGRectGetWidth(self.view.frame), 40);
     [button1 setTitle:@"Hide NavBar, Enable Gesture" forState:UIControlStateNormal];
-    [button1 setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-    button1.backgroundColor = UIColor.lightGrayColor;
+    [button1 setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    button1.backgroundColor = UIColor.systemBlueColor;
     button1.tag = 1001;
     [button1 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button1];
@@ -36,8 +36,8 @@
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
     button2.frame = CGRectMake(0, 200, CGRectGetWidth(self.view.frame), 40);
     [button2 setTitle:@"Hide NavBar, Disable Gesture" forState:UIControlStateNormal];
-    [button2 setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-    button2.backgroundColor = UIColor.lightGrayColor;
+    [button2 setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    button2.backgroundColor = UIColor.systemBlueColor;
     button2.tag = 1002;
     [button2 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];
@@ -45,8 +45,8 @@
     UIButton *button3 = [UIButton buttonWithType:UIButtonTypeCustom];
     button3.frame = CGRectMake(0, 300, CGRectGetWidth(self.view.frame), 40);
     [button3 setTitle:@"Show NavBar, Enable Gesture" forState:UIControlStateNormal];
-    [button3 setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-    button3.backgroundColor = UIColor.lightGrayColor;
+    [button3 setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    button3.backgroundColor = UIColor.systemBlueColor;
     button3.tag = 1003;
     [button3 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button3];
@@ -54,8 +54,8 @@
     UIButton *button4 = [UIButton buttonWithType:UIButtonTypeCustom];
     button4.frame = CGRectMake(0, 400, CGRectGetWidth(self.view.frame), 40);
     [button4 setTitle:@"Show NavBar, Disable Gesture" forState:UIControlStateNormal];
-    [button4 setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-    button4.backgroundColor = UIColor.lightGrayColor;
+    [button4 setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    button4.backgroundColor = UIColor.systemBlueColor;
     button4.tag = 1004;
     [button4 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button4];
@@ -65,8 +65,8 @@
         UIButton *buttonBack = [UIButton buttonWithType:UIButtonTypeCustom];
         buttonBack.frame = CGRectMake(0, 500, CGRectGetWidth(self.view.frame), 40);
         [buttonBack setTitle:@"Back" forState:UIControlStateNormal];
-        [buttonBack setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-        buttonBack.backgroundColor = UIColor.lightGrayColor;
+        [buttonBack setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+        buttonBack.backgroundColor = UIColor.systemBlueColor;
         buttonBack.tag = 1005;
         [buttonBack addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:buttonBack];
