@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    [self.navigationController.navigationBar setBarTintColor:UIColor.redColor];
+    [self.navigationController.navigationBar setTintColor:UIColor.whiteColor];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.whiteColor}];
+
     self.title = @"NavigationBar";
     
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
